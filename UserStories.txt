@@ -1,0 +1,12 @@
+Kyle, Morgan, Aaron:
+As a professor, I want to be able to see a student’s possibility of achieving a non probationary GPA by entering a student’s current GPA, credit hours taken, and number of future credit hours so that I know whether the student can continue in the nursing program.
+
+Aaron:
+As a student, I want to be able to enter my current GPA, credit hours taken, the number of future credit hours, and the GPA achieved in future credits to see my possible cumulative GPA so that I know what I need to achieve in classes to get out of probation.
+
+Morgan:
+As a student, I want to be able to enter my current GPA and credit hours taken and what GPA I hope to achieve and how many credit hours I will take so that I can see how my future grades will affect my GPA.
+
+Kyle:
+As a student, I want to be able to enter the number of semesters I want used to achieve the set GPA I enter based off my current GPA and credit hours I have taken and will take in each of the future semesters so that I can know what grades I have to get to reach my desired GPA.
+
