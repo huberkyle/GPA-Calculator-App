@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- SoN-GPA-Formulas.html       
+Modified from orginal development by Joe Hoffert
+By: Kyle, Morgan, Aaron
+This page runs GPA calculations for the IWU School of Nursing.
+-->
+ 
+<html lang="en">
+ <head>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title> SoN GPA Calculations </title>
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <script type="text/javascript">
+     // Global constant for the targeted GPA
+     window.goalGPA = 2.75;
+     window.rounding2places = 100;
+   </script>
+   <script src="js/MinGPAOneSemester.js" type="text/javascript" ></script>
+   <script src="js/MinGPATwoSemesters.js" type="text/javascript" ></script>
+ </head>
+ <body>
+   <h2> IWU School of Nursing - Calculate Desired GPAs</h2>
+   
+   <h3> ONLY ONE SEMESTER to achieve GPA </h3>
+   Nursing Credits Earned:<input type="text" id="creditsEarnedBox" value="0"><br>
+   Planned Nursing Credits next semester:<input type="text" id="creditsTakenBox" value="0"><br>
+   Current GPA:<input type="text" id="gpaBox" value="0"><br>
+   GPA to Achieve:<input type="text" id="achieveGpa" value="2.75"><br>
+   <input type="button" value="Calculate GPA" onclick="MinGPAOneSemester();">
+   <div id="outputDiv1"></div>
+   <hr>
+
+   <h3> TWO SEMESTERS to achieve GPA </h3>
+   Nursing Credits Earned:<input type="text" id="creditsEarned2Box" value="0"><br>
+   Planned Nursing Credits next semester:<input type="text" id="creditsTaken2Box" value="0"><br>
+   Planned Nursing Credits the following semester:<input type="text" id="creditsTakenFollowing2Box" value="0"><br>
+   Current GPA:<input type="text" id="gpa2Box" value="0"><br>
+   GPA to Achieve:<input type="text" id="achieveGpa" value="2.75"><br>
+   <input type="button" value="Calculate GPA" onclick="MinGPATwoSemesters();">
+   <div id="outputDiv2"></div>
+   <hr>
+ </body>
+</html>
