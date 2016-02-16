@@ -19,6 +19,12 @@
        goalGPA = parseFloat(document.getElementById("achieveGpa").value);
        var creditsEarned = parseFloat(document.getElementById("creditsEarnedBox").value);
        var creditsTaken = parseFloat(document.getElementById("creditsTakenBox").value);
+       var i = 1;
+       while (window.counter > i) {
+           var creditsTaken2 = parseFloat(document.getElementById("creditsTakenBox" + (i + 1)).value);
+           creditsTaken = creditsTaken + creditsTaken2;
+           i = i + 1;
+       }
        var gpa = parseFloat(document.getElementById("gpaBox").value);
 	   
 	   var m1 = (window.goalGPA * (creditsEarned+creditsTaken) - gpa * creditsEarned)/creditsTaken;
