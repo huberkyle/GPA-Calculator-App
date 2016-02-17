@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- SoN-GPA-Formulas.html       
+<!-- GPAToAchieve.html       
 Modified from orginal development by Joe Hoffert
 By: Kyle, Morgan, Aaron
 This page runs GPA calculations for the IWU School of Nursing.
@@ -12,12 +12,10 @@ This page runs GPA calculations for the IWU School of Nursing.
    <title> SoN GPA Calculations </title>
    <link href="css/bootstrap.css" rel="stylesheet">
    <script type="text/javascript">
-     // Global constant for the targeted GPA
-     window.goalGPA = 2.75;
-     window.rounding2places = 100;
+     // Counter that is used in both calcNeededGPA and addInput
      window.counter = 1;
    </script>
-   <script src="js/MinGPAOneSemester.js" type="text/javascript" ></script>
+   <script src="js/calcNeededGPA.js" type="text/javascript" ></script>
    <script src="js/addInput.js" type="text/javascript"></script>
  </head>
  <body>
@@ -33,7 +31,7 @@ This page runs GPA calculations for the IWU School of Nursing.
                GPA to Achieve:<br><input class="form-control" type="number" min="0" id="achieveGpa" value="2.75"><br>
            </div>
         </div>
-        <input class="btn btn-primary" type="button" value="Calculate GPA" onclick="MinGPAOneSemester();">
+        <input class="btn btn-primary" type="button" value="Calculate GPA" onclick="calcNeededGPA();">
         <input class="btn btn-primary" type="button" value="Add another semester" onClick="addInput('dynamicInput');"><br>
         <br><div id="outputDiv1"></div>
    </div>
