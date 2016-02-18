@@ -29,10 +29,15 @@
            i = i + 1;
        }
        var gpa = parseFloat(document.getElementById("gpaBox").value);
-	   
 	   var m1 = (goalGPA * (creditsEarned+creditsTaken) - gpa * creditsEarned)/creditsTaken;
 	   // Round to two decimal places.
 	   m1 =  Math.round(m1 * rounding2places) / rounding2places;
-       outputDiv1.innerHTML =
-         'minimum GPA needed in next semester to bring GPA up to ' + goalGPA + ' = <kbd>' + m1 + '</kbd><br >';
+       // If not possible to reach desired GPA an alert is sent.
+       if (m1 > 4) {
+           alert("Not possible to reach " + goalGPA + " GPA with given information!");
+       }
+       // If possible to reach desired GPA, the desired GPA is shown along with what GPA in the future semester is needed to each desired GPA.
+       else {
+           outputDiv1.innerHTML = goalGPA + ' GPA possible! Minimum GPA needed in next semester to bring GPA up to ' + goalGPA + ' = <kbd>' + m1 + '</kbd><br >';
+       }
      }
