@@ -34,7 +34,7 @@ function addInput(divName){
           var newdiv = document.createElement('div');
 		  // The name of the input with the number of which additional semester it is, is added  
 		  // Creates the new inputs as they are requested
-          newdiv.innerHTML = "Additional Planned Semester " + (window.counter) + ":" + " <input class='form-control' type='number' min='0' id='creditsTakenBox" + (window.counter + 1) + "' value='0'><br>";
+          newdiv.innerHTML = "Additional Planned Semester " + (window.counter) + ":" + " <input class='form-control' type='number' min='0' max='200' id='creditsTakenBox" + (window.counter + 1) + "' value='0'><br>";
           document.getElementById(divName).appendChild(newdiv);
           window.counter++;
      }
