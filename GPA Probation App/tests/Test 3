@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="file:///Users/morgancolbert/Desktop/Kyle-Aaron-Morgan-GPA-Probation-App/GPA%2520Probation%2520App/GPAToAchieve.html" />
+<title>Test 3</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test 3</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///Users/morgancolbert/Desktop/Kyle-Aaron-Morgan-GPA-Probation-App-Development/GPA%20Probation%20App/GPAToAchieve.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>GPA Calculations</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsEarnedBox</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=gpaBox</td>
+	<td>2.60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
