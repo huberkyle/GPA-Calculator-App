@@ -33,9 +33,11 @@ under the License.
     <script type="text/javascript">
         // Counter that is used in both calcNeededGPA and addInput
         window.counter = 1;
+        // Allows bootstrap tooltips in the document
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
         });
+        // Allows the collapse icon to change based on whether the collapse button is pressed
         $(document).ready(function () {
             $("#demo1").on("hide.bs.collapse", function () {
                 $(".btn").html('<span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits');
