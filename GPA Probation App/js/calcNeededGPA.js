@@ -55,7 +55,7 @@
            i = i + 1;
        }
        var gpa = parseFloat(document.getElementById("gpaBox").value);
-
+       // runs the desired GPA calculations when there are replacement credit hours included
        gpa = (((creditsEarned + creditsTaken) * gpa) - (replacementCredits * previousGPAReplacement)) / (creditsEarned + creditsTaken - replacementCredits);
        creditsEarned = creditsEarned - replacementCredits;
        creditsTaken = creditsEarned + replacementCredits;
