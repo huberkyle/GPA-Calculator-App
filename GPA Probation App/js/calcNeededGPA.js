@@ -58,7 +58,7 @@
        // runs the desired GPA calculations when there are replacement credit hours included
        gpa = (((creditsEarned + creditsTaken) * gpa) - (replacementCredits * previousGPAReplacement)) / (creditsEarned + creditsTaken - replacementCredits);
        creditsEarned = creditsEarned - replacementCredits;
-       creditsTaken = creditsEarned + replacementCredits;
+       creditsTaken = creditsTaken + replacementCredits;
        // Calculates the needed GPA to obtain desired GPA
        var m1 = (goalGPA * (creditsEarned + creditsTaken) - gpa * creditsEarned) / creditsTaken;
        // Round to two decimal places.
