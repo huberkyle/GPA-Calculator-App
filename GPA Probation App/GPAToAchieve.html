@@ -84,7 +84,7 @@ under the License.
                     <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsTakenBox" value="0">
                     <br>
                 </div>
-                <a href="#demo1" class="btn btn-primary" data-toggle="collapse"><span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits</a>
+                <a href="#demo1" class="btn btn-primary" tabindex="-1" data-toggle="collapse"><span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits</a>
                 <br>
                 <br>
                 <div id="demo1" class="collapse">
@@ -113,5 +113,11 @@ under the License.
         <br>
         <div id="outputDiv1"></div>
     </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 </body>
 </html>
