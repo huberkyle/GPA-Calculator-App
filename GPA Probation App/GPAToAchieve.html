@@ -75,12 +75,12 @@ under the License.
             <div class="col-sm-4">
                 Credit Hours Taken: 
                 <br>
-                <input class="form-control" data-toggle="tooltip" title="Transfer credits are not included in GPA Probation" data-placement="auto bottom" type="number" min="0" max="200" oninput="validity.valid||(value='');" id="creditsEarnedBox" value="0">
+                <input class="form-control" data-toggle="tooltip" title="Transfer credits are not included in GPA Probation" data-placement="auto bottom" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsEarnedBox" value="0">
                 <br>
                 <div id="dynamicInput">
                     Future Credit Hours:
                     <br>
-                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" id="creditsTakenBox" value="0">
+                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsTakenBox" value="0">
                     <br>
                 </div>
                 <a href="#demo1" class="btn btn-primary" data-toggle="collapse"><span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits</a>
@@ -89,20 +89,20 @@ under the License.
                 <div id="demo1" class="collapse">
                     Replacement Credits:
                     <br>
-                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" id="replacementCredits" value="0">
+                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="replacementCredits" value="0">
                     <br>
                     Previous GPA in Replacement Credits:
                     <br>
-                    <input class="form-control" type="number" min="0" max="4" step="0.01" id="previousGPAReplacement" value="0">
+                    <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="previousGPAReplacement" value="0">
                     <br>
                 </div>
                 Current GPA:
                 <br>
-                <input class="form-control" type="number" min="0" max="4" step="0.01" id="gpaBox" value="0">
+                <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="gpaBox" value="0">
                 <br>
                 GPA to Achieve:
                 <br>
-                <input class="form-control" type="number" min="0" max="4" step="0.01" id="achieveGpa" value="2.75">
+                <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="achieveGpa" value="2.75">
                 <br>
             </div>
         </div>
