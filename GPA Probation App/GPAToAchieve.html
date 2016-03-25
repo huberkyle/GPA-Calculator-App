@@ -26,7 +26,6 @@ under the License.
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GPA Calculations</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="manifest" href="js/manifest.json">
     <script src="js/jquery-1.12.1.min.js" type="text/javascript"></script>
@@ -60,7 +59,7 @@ under the License.
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" >GPA Calculator</a>
+                <a class="navbar-brand">GPA Calculator</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -77,12 +76,12 @@ under the License.
             <div class="col-sm-4">
                 Credit Hours Taken: 
                 <br>
-                <input class="form-control" data-toggle="tooltip" title="Transfer credits are not included in GPA Probation" data-placement="auto left" type="number" min="0" max="200" oninput="validity.valid||(value='');" id="creditsEarnedBox" value="0">
+                <input class="form-control" data-toggle="tooltip" title="Transfer credits are not included in GPA Probation" data-placement="auto bottom" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsEarnedBox" value="0">
                 <br>
                 <div id="dynamicInput">
                     Future Credit Hours:
                     <br>
-                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" id="creditsTakenBox" value="0">
+                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsTakenBox" value="0">
                     <br>
                 </div>
                 <a href="#demo1" class="btn btn-primary" data-toggle="collapse"><span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits</a>
@@ -91,20 +90,20 @@ under the License.
                 <div id="demo1" class="collapse">
                     Replacement Credits:
                     <br>
-                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" id="replacementCredits" value="0">
+                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="replacementCredits" value="0">
                     <br>
                     Previous GPA in Replacement Credits:
                     <br>
-                    <input class="form-control" type="number" min="0" max="4" step="0.01" id="previousGPAReplacement" value="0">
+                    <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="previousGPAReplacement" value="0">
                     <br>
                 </div>
                 Current GPA:
                 <br>
-                <input class="form-control" type="number" min="0" max="4" step="0.01" id="gpaBox" value="0">
+                <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="gpaBox" value="0">
                 <br>
                 GPA to Achieve:
                 <br>
-                <input class="form-control" type="number" min="0" max="4" step="0.01" id="achieveGpa" value="2.75">
+                <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="achieveGpa" value="2.75">
                 <br>
             </div>
         </div>
