@@ -1,2 +1,2 @@
 # Kyle-Aaron-Morgan-GPA-Probation-App
-How to open the App: To test the app, go to the development branch and download the GPA Probation App folder. Then launch the GPAToAchieve.html in your web browser of choice.
+Navigate to the development branch. Download the GPA Probation App folder and launch the GPAToAchieve.html.
