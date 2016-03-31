@@ -70,7 +70,7 @@
        // If not possible to reach desired GPA the user is told so
        if ((m1 > bestGPA) || (isNaN(m1))) {
            outputDiv1.innerHTML = 'Not possible to reach ' + goalGPA + ' GPA with given information! ';
-           outputDiv2.innerHTML = 'But a ' + m2 + ' is possible with the given information!';
+           outputDiv3.innerHTML = 'But a ' + m2 + ' is possible with the given information!';
        }
            // If possible to reach desired GPA, the desired GPA is shown along with what GPA in the future semester is needed to each desired GPA
        else {
