@@ -19,41 +19,22 @@ software distributed under the License is distributed on an
 "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
 KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
-under the License.
--->
+under the License. -->
 <html lang="en">
 <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Semester GPA Calculations</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="js/manifest.json" rel="manifest">
     <script src="js/jquery-1.12.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/calcSemesterGPA.js" type="text/javascript"></script>
     <script src="js/addInput.js" type="text/javascript"></script>
+    <script src="js/addClassInput.js" type="text/javascript"></script>
     <script type="text/javascript">
-        function setGPA(){
-            document.getElementById('gpabpx').value = document.getElementById('outputDiv2.innerHTML').value;
-        }
+        // Counter that is used in both calcNeededGPA and addInput and addClassInput
         window.counter = 1;
-        function addClassInput(divName){
-             // A student should not need more than 8 semesters in calculating future GPA
-             var limit = 4;
-        	 // If more than the limit of input boxes are added the user is alerted no more can be added
-             if (window.counter == limit)  {
-                  alert("You have reached the limit of classes that can be added!");
-             }
-        	 // If not at limit, a new element is created that stores each new input box as they are created by the user
-             else {
-                  var newdiv = document.createElement('div');
-        		  // The name of the input with the number of which additional semester it is, is added
-        		  // Creates the new inputs as they are requested
-                  newdiv.innerHTML = "Aditional Credit Hours:" + " <input class='form-control' type='number' id='class7Credit' value='1' min='1'>" + "Aditional Class Grade: " + "<input class='form-control grade' type='text' id='classGrade7' value='A'><br>";
-                  document.getElementById(divName).appendChild(newdiv);
-                  window.counter++;
-             }
-        }
     </script>
 </head>
 <body>
@@ -65,7 +46,7 @@ under the License.
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">GPA Calculator</a>
+                <a class="navbar-brand" href="#">GPA Calculator</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -80,44 +61,21 @@ under the License.
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                Credit Hours:
-                    <input class="form-control" type="number" id="class1Credit" value="1" min="1">
-                Class Grade:
-                    <input class="form-control grade" type="text" id="classGrade1" value="A">
-                <br>
-                Credit Hours:
-                    <input class="form-control" type="number" id="class2Credit" value="1" min="1">
-                Class Grade:
-                    <input class="form-control grade" type="text" id="classGrade2" value="A">
-                <br>
-                Credit Hours:
-                    <input class="form-control" type="number" id="class3Credit" value="1" min="1">
-                Class Grade:
-                    <input class="form-control grade" type="text" id="classGrade3" value="A">
-                <br>
-                Credit Hours:
-                    <input class="form-control" type="number" id="class4Credit" value="1" min="1">
-                Class Grade:
-                    <input class="form-control grade" type="text" id="classGrade4" value="A">
-                <br>
-                Credit Hours:
-                    <input class="form-control" type="number" id="class5Credit" value="1" min="1">
-                Class Grade:
-                    <input class="form-control grade" type="text" id="classGrade5" value="A">
-                <br>
-                Credit Hours:
-                    <input class="form-control" type="number" id="class6Credit" value="1" min="1">
-                Class Grade:
-                    <input class="form-control grade" type="text" id="classGrade6" value="A">
-                <br>
                 <div>
-                    <div id="dynamicInput">
+                    <div id="dynamicInput2">
+                        Credit Hours:
+                            <input class="form-control" type="number" id="classCredit" min="1" value="0">
+                        Class Grade:
+                            <input class="form-control grade" type="text" id="classGrade">
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
             <input class="btn btn-primary" type="button" value="Calculate GPA" onclick="calcSemesterGPA();">
-            <input class="btn btn-primary" type="button" value="Add Another Class" onclick="addClassInput('dynamicInput');">
+            <br>
+            <br>
+            <input class="btn btn-primary" type="button" value="Add Another Class" onclick="addClassInput('dynamicInput2');">
             <br>
             <br>
             <div id="outputDiv2"></div>
