@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <!-- GPAToAchieve.html
 Modified from orginal development by Joe Hoffert
 By: Kyle, Morgan, Aaron
@@ -81,12 +81,18 @@ under the License.
             <div class="col-sm-4">
                 Credit Hours Taken: 
                 <br>
-                <input class="form-control" data-toggle="tooltip" title="Transfer credits are not included in GPA Probation" data-placement="auto bottom" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsEarnedBox" value="0">
+                <input class="input-validation-error form-control" data-toggle="tooltip" title="The Nursing Credits Field is required" data-placement="auto left" type="number" min="0" oninput="validity.valid||(value='');" id="creditsEarnedBox" value="0" name="NursingCreditsEarned">
+                
+                
+                <span class="text-danger input-validation-error" data-valmsg-for="NursingCreditsEarned"
+                data-valmsg-replace="true">Transfer credits are not included in GPA Probation.</span>
+                
                 <br>
                 <div id="dynamicInput">
                     Future Credit Hours:
                     <br>
-                    <input class="form-control" type="number" min="0" max="200" oninput="validity.valid||(value='');" onFocus="this.select();" id="creditsTakenBox" value="0">
+                    <input class="form-control" data-toggle="tooltip" title="The Planned Nursing Credits field is required" 
+                    data-placement="autoleft" type="number" min="0" oninput="validity.valid||(value='');" id="creditsTakenBox" value="0" name="PlannedNursingCredits" required>
                     <br>
                 </div>
                 <a href="#demo1" class="btn btn-primary" tabindex="-1" data-toggle="collapse"><span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits</a>
@@ -104,11 +110,11 @@ under the License.
                 </div>
                 Current GPA:
                 <br>
-                <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="gpaBox" value="0">
+                 <input class="form-control" data-toggle="tooltip" title="Your Current GPA is required" data-placement="autoleft" type="number" min="0" id="gpaBox" value="0" name="currentGPA"> 
                 <br>
                 GPA to Achieve:
                 <br>
-                <input class="form-control" type="number" min="0" max="4" step="0.01" onFocus="this.select();" id="achieveGpa" value="2.75">
+                <input class="form-control" data-toggle="tooltip" title="Your desire GPA to Achieve is required" data-placement="autoleft" type="number" min="0" id="achieveGpa" value="2.75"> 
                 <br>
             </div>
         </div>
