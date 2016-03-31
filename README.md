@@ -1,5 +1,10 @@
 # Kyle-Aaron-Morgan-GPA-Probation-App
-How to open the App: To test the app, go to the development branch and download the GPA Probation App folder. Then launch the GPAToAchieve.html in your web browser of choice.
+How to open the web App: Go to the development branch and download the GPA Probation App folder. Then launch the GPAToAchieve.html.
+
+How to install the Android app: Either go to https://github.com/huberkyle/Kyle-Aaron-Morgan-GPA-Probation-App/blob/Development/GPA%20Calculator.apk?raw=true or download the GPA Calculator.apk from the development branch on your Android device. Once downloaded open the file and hit the install button.
+
+To test the app, go to the development branch and download the GPA Probation App folder. Then launch the selenium IDE in Firefox. From the Selenium IDE open up the test cases. The test cases will need to be updated to corresponding to the location of where the GPAToAchieve.html file is downloaded onto your computer.
+
 To run tests:
     1. Open the GPA Application in FireFox. 
     2. Download the test file.
