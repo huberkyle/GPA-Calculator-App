@@ -40,6 +40,7 @@
    {
        // constant for the targeted GPA
        var goalGPA = 2.75;
+       var bestGPA = 4;
        var rounding2places = 100;
        // Pulls values form inputs areas and places them in variables
        goalGPA = parseFloat(document.getElementById("achieveGpa").value);
@@ -55,20 +56,25 @@
            i = i + 1;
        }
        var gpa = parseFloat(document.getElementById("gpaBox").value);
-       // runs the desired GPA calculations when there are replacement credit hours included
+
        gpa = (((creditsEarned + creditsTaken) * gpa) - (replacementCredits * previousGPAReplacement)) / (creditsEarned + creditsTaken - replacementCredits);
        creditsEarned = creditsEarned - replacementCredits;
-       creditsTaken = creditsTaken + replacementCredits;
+       creditsTaken = creditsEarned + replacementCredits;
        // Calculates the needed GPA to obtain desired GPA
        var m1 = (goalGPA * (creditsEarned + creditsTaken) - gpa * creditsEarned) / creditsTaken;
        // Round to two decimal places.
        m1 = Math.round(m1 * rounding2places) / rounding2places;
+       
+       m2 = ((creditsEarned * gpa) +(bestGPA * creditsTaken))/(creditsTaken + creditsEarned);
+       
        // If not possible to reach desired GPA the user is told so
-       if ((m1 > 4) || (isNaN(m1))) {
-           outputDiv1.innerHTML = 'Not possible to reach ' + goalGPA + ' GPA with given information!';
+       if ((m1 > bestGPA) || (isNaN(m1))) {
+           outputDiv1.innerHTML = 'Not possible to reach ' + goalGPA + ' GPA with given information! ';
+           outputDiv2.innerHTML = 'But a ' + m2 + ' is possible with the given information!';
        }
            // If possible to reach desired GPA, the desired GPA is shown along with what GPA in the future semester is needed to each desired GPA
        else {
            outputDiv1.innerHTML = goalGPA + ' GPA possible! Minimum GPA needed in next semester to bring GPA up to ' + goalGPA + ' = <kbd>' + m1 + '</kbd><br >';
        }
+       
    }
