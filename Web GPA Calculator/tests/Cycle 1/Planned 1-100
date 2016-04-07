@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="file:///Users/morgancolbert/Desktop/Kyle-Aaron-Morgan-GPA-Probation-App/GPA%2520Probation%2520App/GPAToAchieve.html" />
+<title>Planned 1-100</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Planned 1-100</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///Users/morgancolbert/Desktop/Kyle-Aaron-Morgan-GPA-Probation-App-Development/GPA%20Probation%20App/GPAToAchieve.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>GPA Calculations</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>16</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>17</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>18</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>19</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>22</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>23</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>24</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>25</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>26</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>27</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>28</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>29</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>30</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>31</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>32</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>33</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>34</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>35</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>36</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>37</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>38</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>39</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>41</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>42</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>43</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>44</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>45</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>46</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>47</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>48</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>49</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>51</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>52</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>53</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>54</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>55</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>56</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>57</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>58</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>59</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>61</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>62</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>63</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>64</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>65</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>66</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>67</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>68</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>69</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>70</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>71</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>72</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>73</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>74</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>75</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>76</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>77</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>78</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>79</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>80</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>81</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>82</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>83</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>84</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>85</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>86</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>87</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>88</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>89</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>90</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>91</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>92</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>93</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>94</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>95</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>96</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>97</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>98</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>99</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=creditsTakenBox</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
