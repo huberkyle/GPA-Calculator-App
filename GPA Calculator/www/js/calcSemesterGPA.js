@@ -203,7 +203,7 @@ function calcSemesterGPA() {
                 window.alert('Could not calculate. Please enter valid letter grades.');
             }
         totalCredits = creditHours + creditHours2;
-        semesterGPA = totalPoints/totalCredits;
-        outputDiv2.innerHTML = 'Your semester GPA is ' + semesterGPA + '.';
     }
+    semesterGPA = totalPoints/totalCredits;
+    outputDiv2.innerHTML = 'Your semester GPA is ' + semesterGPA + '.';
 }
