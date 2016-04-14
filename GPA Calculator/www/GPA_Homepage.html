@@ -1,8 +1,8 @@
 <!doctype html>
-<!-- calculateSemesterGPA.html
+<!-- GPAToAchieve.html
 Modified from orginal development by Joe Hoffert
 By: Kyle, Morgan, Aaron
-This page runs the semester GPA calculations based on letter grades.
+This page is the homepage for the GPA Calculation for the IWU School of Nursing.
 
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
@@ -24,18 +24,31 @@ under the License. -->
 <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Semester GPA Calculations</title>
+    <title>GPA Homepage</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="manifest" href="js/manifest.json">
     <script src="js/jquery-1.12.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
-    <script src="js/calcSemesterGPA.js" type="text/javascript"></script>
-    <script src="js/addInput.js" type="text/javascript"></script>
-    <script src="js/addClassInput.js" type="text/javascript"></script>
     <script type="text/javascript">
         // Counter that is used in both calcNeededGPA and addInput and addClassInput
         window.counter = 1;
+        // Allows bootstrap tooltips in the document
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        // Allows the collapse icon to change based on whether the collapse button is pressed
+        $(document).ready(function () {
+            $("#demo1").on("hide.bs.collapse", function () {
+                $(".btn").html('<span class="glyphicon glyphicon-collapse-down"></span> Taking Replacement Credits');
+            });
+            $("#demo1").on("show.bs.collapse", function () {
+                $(".btn").html('<span class="glyphicon glyphicon-collapse-up"></span> Taking Replacement Credits');
+            });
+        });
     </script>
+    <script src="js/calcNeededGPA.js" type="text/javascript"></script>
+    <script src="js/addInput.js" type="text/javascript"></script>
+    <script src="js/addClassInput.js"type="text/javascript"></script>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -50,38 +63,33 @@ under the License. -->
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-					<li><a href="GPAToAchieve.html">Calculate Desired GPA</a></li>
-                    <li class="active">
-                        <a href="#">Calculate Semester GPA</a>
+                    <li>
+                        <a href="GPAToAchieve.html">Calculate Desired GPA</a>
                     </li>
+                    <li><a href="calculateSemesterGPA.html">Calculate Semester GPA</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div>
-                    <div id="dynamicInput2">
-                        Credit Hours:
-                            <input class="form-control" type="number" max="4" oninput="validity.valid||(value='');" onFocus="this.select();" id="classCredit" min="1" value="0">
-                        Class Grade:
-                            <input class="form-control grade" type="text" onFocus="this.select();" id="classGrade">
-                        <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <input class="btn btn-primary" type="button" value="Calculate GPA" onclick="calcSemesterGPA();">
-            <button class="btn btn-primary" type="reset" classvalue="Reset">Reset</button>
-            <br>
-            <br>
-            <input class="btn btn-primary" type="button" value="Add Another Class" onclick="addClassInput('dynamicInput2');">
-            <br>
-            <br>
-            <div id="outputDiv2"></div>
-            <br>
-            <br>
+    
+    <div>
+        <h4 align="center">Welcome to the GPA Calculator. Below there are two options that you can choose between.</h4>
+        <h4 align="center">Click on the Section that meets your needs to calculate your GPA</h4>    
     </div>
+    <a href="GPAToAchieve.html">
+    <div>
+        <H1 align="center">GPA to Achieve</H1>
+        <p align="center">On this page you will calculate your GPA such that you are trying to get a certain GPA.</p>
+    </div>
+    </a>
+    <br>
+    <a href="calculateSemesterGPA.html">
+    <div>
+        <H1 align="center">Calculate Semseter GPA</H1>
+        <p align="center">On this page you will calculate your GPA only for your current semester using the letter grades you achieved in each class.</p>
+    </div>
+    </a>
+    
 </body>
+
 </html>
