@@ -3,7 +3,7 @@
 //  GPA CalculatorUITests
 //
 //  Created by Kyle Huber on 4/11/16.
-//
+//  Tests the interface on the two different pages.
 //
 
 import XCTest
@@ -74,6 +74,28 @@ class GPA_CalculatorUITests: XCTestCase {
         element2.childrenMatchingType(.Other).elementBoundByIndex(10).buttons["Calculate GPA"].tap()
         element2.childrenMatchingType(.TextField).elementBoundByIndex(5).swipeUp()
         app.buttons["Close"].tap()
+        
+    }
+    
+    func calcSemesterGPA() {
+        
+        let app = XCUIApplication()
+        let button = app.otherElements["navigation"].childrenMatchingType(.Button).element
+        button.tap()
+        button.tap()
+        button.tap()
+        app.staticTexts["Calculate Semester GPA"].tap()
+        
+        let semesterGpaCalculationsElement = app.otherElements["Semester GPA Calculations"]
+        semesterGpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(0).tap()
+        semesterGpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(1).tap()
+        app.buttons["Calculate GPA"].tap()
+        
+        let addAnotherClassButton = app.buttons["Add Another Class"]
+        addAnotherClassButton.tap()
+        addAnotherClassButton.tap()
+        addAnotherClassButton.tap()
+        semesterGpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(7).tap()
         
     }
     
