@@ -28,9 +28,53 @@ class GPA_CalculatorUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func NavBar() {
+        
+        let app = XCUIApplication()
+        app.otherElements["navigation"].childrenMatchingType(.Button).element.tap()
+        app.staticTexts["Calculate Semester GPA"].tap()
+        app.otherElements["navigation"].childrenMatchingType(.Button).element.tap()
+        app.staticTexts["Calculate Desired GPA"].tap()
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func CalculateDesiredGPA() {
+        XCUIDevice.sharedDevice().orientation = .Portrait
+        
+        let app = XCUIApplication()
+        let gpaCalculationsElement = app.otherElements["GPA Calculations"]
+        gpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(0).tap()
+        gpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(1).tap()
+        app.links[" Taking Replacement Credits"].tap()
+        
+        let textField = gpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(2)
+        textField.tap()
+        gpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(3).tap()
+        gpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(4).tap()
+        gpaCalculationsElement.childrenMatchingType(.TextField).elementBoundByIndex(5).tap()
+        app.buttons["Add another semester"].tap()
+        textField.tap()
+        
+        let element3 = app.childrenMatchingType(.Window).elementBoundByIndex(0).childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.Other).element
+        let element = element3.childrenMatchingType(.Other).element
+        element.tap()
+        element3.childrenMatchingType(.Other).elementBoundByIndex(0).tap()
+        app.buttons["Calculate GPA"].tap()
+        element.tap()
+        app.buttons["Calculate Semester GPA"].tap()
+        
+        let element2 = gpaCalculationsElement.childrenMatchingType(.Other).elementBoundByIndex(15)
+        element2.childrenMatchingType(.TextField).elementBoundByIndex(0).tap()
+        element2.childrenMatchingType(.TextField).elementBoundByIndex(1).tap()
+        
+        let addAnotherClassButton = app.buttons["Add Another Class"]
+        addAnotherClassButton.tap()
+        addAnotherClassButton.tap()
+        element2.childrenMatchingType(.Other).elementBoundByIndex(10).buttons["Calculate GPA"].tap()
+        element2.childrenMatchingType(.TextField).elementBoundByIndex(5).swipeUp()
+        app.buttons["Close"].tap()
+        
     }
     
 }
