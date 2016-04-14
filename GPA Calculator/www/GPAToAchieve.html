@@ -59,7 +59,7 @@ under the License. -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">GPA Calculator</a>
+                <a class="navbar-brand" href="GPA_Homepage.html">GPA Calculator</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -71,6 +71,8 @@ under the License. -->
             </div>
         </div>
     </nav>
+    
+    <form>
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -116,6 +118,8 @@ under the License. -->
         <br>
         <br>
         <input class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal" value="Calculate Semester GPA">
+        <button class="btn btn-primary" type="reset" classvalue="Reset">Reset</button>
+        
         <div class="modal fade" id="myModal">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -160,6 +164,7 @@ under the License. -->
         <div id="outputDiv1"></div>
         <div id="outputDiv3"></div>
     </div>
+    </form>
     <!--Scripts needed for Android App -->
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
